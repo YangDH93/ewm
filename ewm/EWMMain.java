@@ -3,6 +3,7 @@ package ewm;
 import java.util.Scanner;
 
 import bangMenu.Bang;
+import doneMenu.DoneM;
 import yangMenu.Yang;
 
 public class EWMMain {
@@ -26,7 +27,8 @@ public class EWMMain {
 				m.menu();
 			}break;
 			case 3: { // 오늘 뭐 먹 최지원
-
+				m = new DoneM();
+				m.menu();
 			}break;
 			case 4: { // 오늘 뭐 먹 예린홍
 
